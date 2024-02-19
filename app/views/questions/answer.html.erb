@@ -1,0 +1,11 @@
+<div class="container">
+  <div id="question" class="border rounded my-2 py-2 px-3">
+    <%=@question%>
+    </div>
+  <div id="answer" class="border rounded my-2 py-2 px-3">
+    <%= @answer%>
+  </div>
+  <div class="btn btn-success btn-lg btn-block d-flex text-center">
+    <%= link_to "Ask question again", ask_path, :class => "btn" %>
+  </div>
+</div>
